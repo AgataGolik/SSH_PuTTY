@@ -6,10 +6,13 @@
 2. Under **Type of key to generate**, choose **RSA** (the most common and secure option).  
 3. Click **Generate** and move your mouse around the blank area until the progress bar completes.  
 4. Once the key is generated:
-   - You’ll see your **public key** in the field labeled **Public key for pasting into OpenSSH authorized_keys file** – copy this, you’ll need it for Vast.ai.
+   - You’ll see your **public key** in the field labeled **Public key for pasting into OpenSSH authorized_keys file** ->⚠️ **Copy this – you’ll need it for Vast.ai.**
+
    - Set a **key passphrase** if you want extra security and **confirm key passphrase** .
-     (When generating your key in PuTTYgen, you can set a key passphrase - a password that protects your private key file. Each time you start your computer and open the key file (for example, by double-clicking the CodeAssist.ppk (if you name the file like this) icon on your desktop, PuTTY will ask you to enter this passphrase)
-5. Then click:
+    (When you create your key in PuTTYgen, you can set a passphrase – it’s basically a password that keeps your private key safe.
+Each time you restart your computer and open the key file (for example, by double-clicking the CodeAssist.ppk icon on your desktop), PuTTY will ask you to type this passphrase.
+You should always enter it before using the key to connect).
+6. Then click:
    - **Save private key** → save it as something like `CodeAssist` – this is the file you’ll use in PuTTY.  
    - (You can also click **Save public key**, but copying the text from the box is usually enough.)
 
