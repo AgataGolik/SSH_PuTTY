@@ -6,7 +6,7 @@
 2. Under **Type of key to generate**, choose **RSA** (the most common and secure option).  
 3. Click **Generate** and move your mouse around the blank area until the progress bar completes.  
 4. Once the key is generated:
-   - You’ll see your **public key** in the field labeled **Public key for pasting into OpenSSH authorized_keys file** ->⚠️ **Copy this – you’ll need it for Vast.ai.**
+   - You’ll see your **public key** in the field labeled **Public key for pasting into OpenSSH authorized_keys file** ->`⚠️ **Copy this – you’ll need it for Vast.ai.**`
 
    - Set a **key passphrase** if you want extra security and **confirm key passphrase** .
     (When you create your key in PuTTYgen, you can set a passphrase – it’s basically a password that keeps your private key safe.
