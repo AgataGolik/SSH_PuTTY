@@ -30,3 +30,5 @@ You should always enter it before using the key to connect).
 4. Paste your **public key** from PuTTYgen – it should look something like this:
 
    `ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQ...`
+
+## 🔸 Step 3: CREATE VPS on Vast.ai
